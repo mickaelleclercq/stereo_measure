@@ -45,12 +45,12 @@ pip install -r requirements.txt
 
 ## Configuration
 
-Avant d'exécuter le script, modifiez les paramètres de calibration dans `csv2.py` :
+Avant d'exécuter le script, modifiez les paramètres de calibration dans `convert_measures.py` :
 
 ```python
 # Configuration des fichiers
-input_filename = "mesures2.csv"  # Nom de votre fichier d'entrée
-output_suffix = "_cut"           # Suffixe pour les fichiers de sortie
+input_filename = "mesures.csv"  # Nom de votre fichier d'entrée
+output_suffix = "_cut"          # Suffixe pour les fichiers de sortie
 
 # Configuration des paramètres de calibration
 focale_length = 2400    # Focale en pixels
@@ -95,8 +95,8 @@ baseline = 26.5         # Distance entre les caméras en cm
 
 ### Fichiers générés
 
-- `mesures2_cut.csv` : fichier CSV avec les mesures calculées
-- `mesures2_cut.png` : graphiques de visualisation
+- `mesures_cut.csv` : fichier CSV avec les mesures calculées
+- `mesures_cut.png` : graphiques de visualisation
 
 ### Sortie graphique
 
@@ -170,15 +170,15 @@ StereoMeasure/
 ## Exemples de sortie console
 
 ```
-Chargement du fichier: mesures2.csv
+Chargement du fichier: mesures.csv
 Nombre de lignes chargées: 100
 Distance entre les points : 25.34 cm
 Profondeur Z: 145.67 cm
 ...
 Moyenne longueur (sans outliers): 24.8 cm
 Moyenne largeur (sans outliers): 12.3 cm
-Fichier sauvegardé sous: mesures2_cut.csv
-Graphique sauvegardé sous: mesures2_cut.png
+Fichier sauvegardé sous: mesures_cut.csv
+Graphique sauvegardé sous: mesures_cut.png
 ```
 
 ## Contributions
