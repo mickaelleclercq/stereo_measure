@@ -3348,3 +3348,1137 @@
 04:16:58 [WARNING] Frame 630: échec homographie ORB
 04:16:58 [INFO] Frame 630: fallback - template matching depuis frame précédente
 04:16:59 [DEBUG] VideoStream.get_frame: idx=625 ok=True shape=(2160, 3840, 3)
+04:16:59 [INFO] Frame 630: template matching réussi
+04:17:00 [DEBUG] Segmentation: seed=(2074, 333) tol=18.00 pixels=16575
+04:17:00 [INFO] Frame 630: fallback template + segmentation réussi, aire=16505 (prev=15549)
+04:17:00 [INFO] Frame 630: masque gauche mis à jour pour frame suivante
+04:17:00 [INFO] Frame 630: masque et boîte droite mis à jour
+04:17:00 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:17:00 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:17:00 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:17:00 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:17:00 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:17:00 [DEBUG] Frame 630: mise à jour vue gauche avec segmentation
+04:17:00 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:17:00 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:17:00 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:17:00 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:17:00 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:17:00 [DEBUG] Frame 630: mise à jour vue droite avec boîte et segmentation
+04:17:00 [DEBUG] Measure at idx=630
+04:17:00 [INFO] Row appended for idx=630 (L=[[1859, 23], [1840, 221], [1947, 231], [1966, 34]] R=[[1972, 266], [1968, 387], [2176, 394], [2180, 273]])
+04:17:00 [INFO] Frame 630: masque précédent mis à jour pour itération suivante
+04:17:01 [DEBUG] VideoStream.get_frame: idx=635 ok=True shape=(2160, 3840, 3)
+04:17:02 [DEBUG] VideoStream.get_frame: idx=635 ok=True shape=(2160, 3840, 3)
+04:17:02 [INFO] Processing frame 635 avec SIFT simple
+04:17:04 [DEBUG] VideoStream.get_frame: idx=630 ok=True shape=(2160, 3840, 3)
+04:17:05 [INFO] Frame 635: fallback ORB gauche après échec SIFT
+04:17:05 [INFO] Frame 635: fallback template matching gauche
+04:17:05 [INFO] Frame 635: localisation template gauche réussie → (1913,161)
+04:17:06 [DEBUG] Segmentation: seed=(1913, 161) tol=18.00 pixels=1694526
+04:17:06 [WARNING] Frame 635: segmentation trop grande (1658847 > 50000), réduction tolérance
+04:17:06 [DEBUG] Segmentation: seed=(1913, 161) tol=12.60 pixels=1047051
+04:17:06 [WARNING] Frame 635: segmentation encore trop grande, utiliser masque précédent
+04:17:06 [INFO] Frame 635: seed mis à jour vers (1903,124)
+04:17:06 [INFO] Frame 635: segmentation gauche OK, aire=7452 (prev=7452)
+04:17:06 [INFO] Frame 635: tentative homographie L->R
+04:17:07 [DEBUG] Features dans masque étendu: 4
+04:17:09 [DEBUG] Matches trouvés: 0
+04:17:09 [WARNING] Pas assez de bons matches (0 < 4)
+04:17:09 [WARNING] Frame 635: échec homographie L->R
+04:17:09 [INFO] Frame 635: fallback ORB après échec SIFT
+04:17:09 [DEBUG] Features dans masque étendu: 0
+04:17:09 [WARNING] Pas assez de features (0 < 4) dans masque étendu
+04:17:09 [WARNING] Frame 635: échec homographie ORB
+04:17:09 [INFO] Frame 635: fallback - template matching depuis frame précédente
+04:17:11 [DEBUG] VideoStream.get_frame: idx=630 ok=True shape=(2160, 3840, 3)
+04:17:11 [INFO] Frame 635: template matching réussi
+04:17:11 [DEBUG] Segmentation: seed=(2085, 364) tol=18.00 pixels=16666
+04:17:11 [INFO] Frame 635: fallback template + segmentation réussi, aire=16543 (prev=16505)
+04:17:11 [INFO] Frame 635: masque gauche mis à jour pour frame suivante
+04:17:11 [INFO] Frame 635: masque et boîte droite mis à jour
+04:17:11 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:17:11 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:17:11 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:17:11 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:17:11 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:17:11 [DEBUG] Frame 635: mise à jour vue gauche avec segmentation
+04:17:11 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:17:11 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:17:11 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:17:11 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:17:11 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:17:11 [DEBUG] Frame 635: mise à jour vue droite avec boîte et segmentation
+04:17:11 [DEBUG] Measure at idx=635
+04:17:11 [INFO] Row appended for idx=635 (L=[[1859, 23], [1840, 221], [1947, 231], [1966, 34]] R=[[1976, 299], [1972, 419], [2188, 427], [2192, 307]])
+04:17:11 [INFO] Frame 635: masque précédent mis à jour pour itération suivante
+04:17:13 [DEBUG] VideoStream.get_frame: idx=640 ok=True shape=(2160, 3840, 3)
+04:17:14 [DEBUG] VideoStream.get_frame: idx=640 ok=True shape=(2160, 3840, 3)
+04:17:14 [INFO] Processing frame 640 avec SIFT simple
+04:17:15 [DEBUG] VideoStream.get_frame: idx=635 ok=True shape=(2160, 3840, 3)
+04:17:17 [INFO] Frame 640: fallback ORB gauche après échec SIFT
+04:17:17 [INFO] Frame 640: fallback template matching gauche
+04:17:17 [INFO] Frame 640: localisation template gauche réussie → (1944,181)
+04:17:17 [DEBUG] Segmentation: seed=(1944, 181) tol=18.00 pixels=566387
+04:17:17 [WARNING] Frame 640: segmentation trop grande (563405 > 50000), réduction tolérance
+04:17:17 [DEBUG] Segmentation: seed=(1944, 181) tol=12.60 pixels=12646
+04:17:17 [INFO] Frame 640: seed mis à jour vers (1946,122)
+04:17:17 [INFO] Frame 640: segmentation gauche OK, aire=12618 (prev=7452)
+04:17:17 [INFO] Frame 640: tentative homographie L->R
+04:17:19 [DEBUG] Features dans masque étendu: 3
+04:17:19 [WARNING] Pas assez de features (3 < 4) dans masque étendu
+04:17:19 [WARNING] Frame 640: échec homographie L->R
+04:17:19 [INFO] Frame 640: fallback ORB après échec SIFT
+04:17:19 [DEBUG] Features dans masque étendu: 0
+04:17:19 [WARNING] Pas assez de features (0 < 4) dans masque étendu
+04:17:19 [WARNING] Frame 640: échec homographie ORB
+04:17:19 [INFO] Frame 640: fallback - template matching depuis frame précédente
+04:17:21 [DEBUG] VideoStream.get_frame: idx=635 ok=True shape=(2160, 3840, 3)
+04:17:21 [INFO] Frame 640: template matching réussi
+04:17:21 [DEBUG] Segmentation: seed=(2124, 412) tol=18.00 pixels=16011
+04:17:21 [INFO] Frame 640: fallback template + segmentation réussi, aire=16011 (prev=16543)
+04:17:21 [INFO] Frame 640: masque gauche mis à jour pour frame suivante
+04:17:21 [INFO] Frame 640: masque et boîte droite mis à jour
+04:17:21 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:17:21 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:17:21 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:17:21 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:17:21 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:17:21 [DEBUG] Frame 640: mise à jour vue gauche avec segmentation
+04:17:21 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:17:21 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:17:21 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:17:21 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:17:21 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:17:21 [DEBUG] Frame 640: mise à jour vue droite avec boîte et segmentation
+04:17:21 [DEBUG] Measure at idx=640
+04:17:22 [WARNING] No valid left box at idx=640; skip logging
+04:17:22 [INFO] Frame 640: masque précédent mis à jour pour itération suivante
+04:17:23 [DEBUG] VideoStream.get_frame: idx=645 ok=True shape=(2160, 3840, 3)
+04:17:24 [DEBUG] VideoStream.get_frame: idx=645 ok=True shape=(2160, 3840, 3)
+04:17:24 [INFO] Processing frame 645 avec SIFT simple
+04:17:26 [DEBUG] VideoStream.get_frame: idx=640 ok=True shape=(2160, 3840, 3)
+04:17:27 [INFO] Frame 645: fallback ORB gauche après échec SIFT
+04:17:27 [INFO] Frame 645: fallback template matching gauche
+04:17:28 [INFO] Frame 645: localisation template gauche réussie → (3082,1561)
+04:17:28 [DEBUG] Segmentation: seed=(3082, 1561) tol=18.00 pixels=1083759
+04:17:28 [WARNING] Frame 645: segmentation trop grande (1011615 > 50000), réduction tolérance
+04:17:28 [DEBUG] Segmentation: seed=(3082, 1561) tol=12.60 pixels=397863
+04:17:28 [WARNING] Frame 645: segmentation encore trop grande, utiliser masque précédent
+04:17:28 [INFO] Frame 645: seed mis à jour vers (1946,122)
+04:17:28 [INFO] Frame 645: segmentation gauche OK, aire=12618 (prev=12618)
+04:17:28 [INFO] Frame 645: tentative homographie L->R
+04:17:30 [DEBUG] Features dans masque étendu: 1
+04:17:30 [WARNING] Pas assez de features (1 < 4) dans masque étendu
+04:17:30 [WARNING] Frame 645: échec homographie L->R
+04:17:30 [INFO] Frame 645: fallback ORB après échec SIFT
+04:17:30 [DEBUG] Features dans masque étendu: 0
+04:17:30 [WARNING] Pas assez de features (0 < 4) dans masque étendu
+04:17:30 [WARNING] Frame 645: échec homographie ORB
+04:17:30 [INFO] Frame 645: fallback - template matching depuis frame précédente
+04:17:31 [DEBUG] VideoStream.get_frame: idx=640 ok=True shape=(2160, 3840, 3)
+04:17:32 [INFO] Frame 645: template matching réussi
+04:17:32 [DEBUG] Segmentation: seed=(2152, 357) tol=18.00 pixels=18366
+04:17:32 [INFO] Frame 645: fallback template + segmentation réussi, aire=18045 (prev=16011)
+04:17:32 [INFO] Frame 645: masque gauche mis à jour pour frame suivante
+04:17:32 [INFO] Frame 645: masque et boîte droite mis à jour
+04:17:32 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:17:32 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:17:32 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:17:32 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:17:32 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:17:32 [DEBUG] Frame 645: mise à jour vue gauche avec segmentation
+04:17:32 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:17:32 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:17:32 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:17:32 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:17:32 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:17:32 [DEBUG] Frame 645: mise à jour vue droite avec boîte et segmentation
+04:17:32 [DEBUG] Measure at idx=645
+04:17:32 [WARNING] No valid left box at idx=645; skip logging
+04:17:32 [INFO] Frame 645: masque précédent mis à jour pour itération suivante
+04:17:34 [DEBUG] VideoStream.get_frame: idx=650 ok=True shape=(2160, 3840, 3)
+04:17:35 [DEBUG] VideoStream.get_frame: idx=650 ok=True shape=(2160, 3840, 3)
+04:17:35 [INFO] Processing frame 650 avec SIFT simple
+04:17:37 [DEBUG] VideoStream.get_frame: idx=645 ok=True shape=(2160, 3840, 3)
+04:17:38 [INFO] Frame 650: fallback ORB gauche après échec SIFT
+04:17:38 [INFO] Frame 650: fallback template matching gauche
+04:17:38 [INFO] Frame 650: localisation template gauche réussie → (1942,173)
+04:17:39 [DEBUG] Segmentation: seed=(1942, 173) tol=18.00 pixels=1598827
+04:17:39 [WARNING] Frame 650: segmentation trop grande (1592147 > 50000), réduction tolérance
+04:17:39 [DEBUG] Segmentation: seed=(1942, 173) tol=12.60 pixels=900151
+04:17:39 [WARNING] Frame 650: segmentation encore trop grande, utiliser masque précédent
+04:17:39 [INFO] Frame 650: seed mis à jour vers (1946,122)
+04:17:39 [INFO] Frame 650: segmentation gauche OK, aire=12618 (prev=12618)
+04:17:39 [INFO] Frame 650: tentative homographie L->R
+04:17:40 [DEBUG] Features dans masque étendu: 14
+04:17:43 [DEBUG] Matches trouvés: 6
+04:17:43 [DEBUG] Homographie trouvée avec 6 inliers sur 6 matches
+04:17:43 [INFO] Frame 650: homographie trouvée
+04:17:43 [INFO] Frame 650: point projeté à droite (1666,351)
+04:17:43 [DEBUG] Segmentation: seed=(1666, 351) tol=18.00 pixels=1510852
+04:17:43 [INFO] Frame 650: segmentation droite OK via homographie, aire=1508495
+04:17:43 [INFO] Frame 650: masque gauche mis à jour pour frame suivante
+04:17:43 [INFO] Frame 650: masque et boîte droite mis à jour
+04:17:43 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:17:43 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:17:43 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:17:43 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:17:43 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:17:43 [DEBUG] Frame 650: mise à jour vue gauche avec segmentation
+04:17:43 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:17:43 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:17:43 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:17:43 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:17:43 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:17:43 [DEBUG] Frame 650: mise à jour vue droite avec boîte et segmentation
+04:17:43 [DEBUG] Measure at idx=650
+04:17:43 [WARNING] Right box near edge at idx=650; discarding right measurement
+04:17:43 [WARNING] No valid left box at idx=650; skip logging
+04:17:43 [INFO] Frame 650: masque précédent mis à jour pour itération suivante
+04:17:44 [DEBUG] VideoStream.get_frame: idx=655 ok=True shape=(2160, 3840, 3)
+04:17:46 [DEBUG] VideoStream.get_frame: idx=655 ok=True shape=(2160, 3840, 3)
+04:17:46 [INFO] Processing frame 655 avec SIFT simple
+04:17:48 [DEBUG] VideoStream.get_frame: idx=650 ok=True shape=(2160, 3840, 3)
+04:17:49 [INFO] Frame 655: fallback ORB gauche après échec SIFT
+04:17:50 [INFO] Frame 655: fallback template matching gauche
+04:17:50 [INFO] Frame 655: localisation template gauche réussie → (1939,256)
+04:17:50 [DEBUG] Segmentation: seed=(1939, 256) tol=18.00 pixels=832595
+04:17:50 [WARNING] Frame 655: segmentation trop grande (826141 > 50000), réduction tolérance
+04:17:50 [DEBUG] Segmentation: seed=(1939, 256) tol=12.60 pixels=7624
+04:17:50 [INFO] Frame 655: seed mis à jour vers (1943,274)
+04:17:50 [INFO] Frame 655: segmentation gauche OK, aire=7506 (prev=12618)
+04:17:50 [INFO] Frame 655: tentative homographie L->R
+04:17:52 [DEBUG] Features dans masque étendu: 18
+04:17:55 [DEBUG] Matches trouvés: 4
+04:17:55 [DEBUG] Homographie trouvée avec 4 inliers sur 4 matches
+04:17:55 [INFO] Frame 655: homographie trouvée
+04:17:55 [INFO] Frame 655: point projeté à droite (1668,383)
+04:17:55 [DEBUG] Segmentation: seed=(1668, 383) tol=18.00 pixels=2192567
+04:17:55 [INFO] Frame 655: segmentation droite OK via homographie, aire=2180059
+04:17:55 [INFO] Frame 655: masque gauche mis à jour pour frame suivante
+04:17:55 [INFO] Frame 655: masque et boîte droite mis à jour
+04:17:55 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:17:55 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:17:55 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:17:55 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:17:55 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:17:55 [DEBUG] Frame 655: mise à jour vue gauche avec segmentation
+04:17:55 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:17:55 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:17:55 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:17:55 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:17:55 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:17:55 [DEBUG] Frame 655: mise à jour vue droite avec boîte et segmentation
+04:17:55 [DEBUG] Measure at idx=655
+04:17:55 [INFO] Row appended for idx=655 (L=[[1913, 162], [1878, 362], [1984, 381], [2019, 180]] R=None)
+04:17:55 [INFO] Frame 655: masque précédent mis à jour pour itération suivante
+04:17:55 [DEBUG] VideoStream.get_frame: idx=660 ok=True shape=(2160, 3840, 3)
+04:17:56 [DEBUG] VideoStream.get_frame: idx=660 ok=True shape=(2160, 3840, 3)
+04:17:56 [INFO] Processing frame 660 avec SIFT simple
+04:17:57 [DEBUG] VideoStream.get_frame: idx=655 ok=True shape=(2160, 3840, 3)
+04:17:59 [INFO] Frame 660: fallback ORB gauche après échec SIFT
+04:17:59 [INFO] Frame 660: fallback template matching gauche
+04:17:59 [INFO] Frame 660: localisation template gauche réussie → (1919,283)
+04:17:59 [DEBUG] Segmentation: seed=(1919, 283) tol=18.00 pixels=1469289
+04:17:59 [WARNING] Frame 660: segmentation trop grande (1427477 > 50000), réduction tolérance
+04:17:59 [DEBUG] Segmentation: seed=(1919, 283) tol=12.60 pixels=781637
+04:17:59 [WARNING] Frame 660: segmentation encore trop grande, utiliser masque précédent
+04:17:59 [INFO] Frame 660: seed mis à jour vers (1943,274)
+04:17:59 [INFO] Frame 660: segmentation gauche OK, aire=7506 (prev=7506)
+04:17:59 [INFO] Frame 660: tentative homographie L->R
+04:18:01 [DEBUG] Features dans masque étendu: 20
+04:18:03 [DEBUG] Matches trouvés: 6
+04:18:03 [DEBUG] Homographie trouvée avec 6 inliers sur 6 matches
+04:18:03 [INFO] Frame 660: homographie trouvée
+04:18:03 [INFO] Frame 660: point projeté à droite (1642,440)
+04:18:03 [DEBUG] Segmentation: seed=(1642, 440) tol=18.00 pixels=1482390
+04:18:03 [INFO] Frame 660: segmentation droite OK via homographie, aire=1444170
+04:18:03 [INFO] Frame 660: masque gauche mis à jour pour frame suivante
+04:18:03 [INFO] Frame 660: masque et boîte droite mis à jour
+04:18:03 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:18:03 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:18:03 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:18:03 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:18:03 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:18:03 [DEBUG] Frame 660: mise à jour vue gauche avec segmentation
+04:18:03 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:18:03 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:18:03 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:18:03 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:18:03 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:18:03 [DEBUG] Frame 660: mise à jour vue droite avec boîte et segmentation
+04:18:03 [DEBUG] Measure at idx=660
+04:18:03 [INFO] Row appended for idx=660 (L=[[1913, 162], [1878, 362], [1984, 381], [2019, 180]] R=None)
+04:18:03 [INFO] Frame 660: masque précédent mis à jour pour itération suivante
+04:18:03 [DEBUG] Saved history for frame 660 (history_end=660)
+04:18:04 [DEBUG] VideoStream.get_frame: idx=665 ok=True shape=(2160, 3840, 3)
+04:18:04 [DEBUG] VideoStream.get_frame: idx=665 ok=True shape=(2160, 3840, 3)
+04:18:04 [INFO] Processing frame 665 avec SIFT simple
+04:18:04 [DEBUG] VideoStream.get_frame: idx=660 ok=True shape=(2160, 3840, 3)
+04:18:08 [INFO] Frame 665: fallback ORB gauche après échec SIFT
+04:18:08 [INFO] Frame 665: fallback template matching gauche
+04:18:09 [INFO] Frame 665: localisation template gauche réussie → (1944,282)
+04:18:09 [DEBUG] Segmentation: seed=(1944, 282) tol=18.00 pixels=1368158
+04:18:09 [WARNING] Frame 665: segmentation trop grande (1334186 > 50000), réduction tolérance
+04:18:09 [DEBUG] Segmentation: seed=(1944, 282) tol=12.60 pixels=564210
+04:18:09 [WARNING] Frame 665: segmentation encore trop grande, utiliser masque précédent
+04:18:09 [INFO] Frame 665: seed mis à jour vers (1943,274)
+04:18:09 [INFO] Frame 665: segmentation gauche OK, aire=7506 (prev=7506)
+04:18:09 [INFO] Frame 665: tentative homographie L->R
+04:18:10 [DEBUG] Features dans masque étendu: 23
+04:18:13 [DEBUG] Matches trouvés: 11
+04:18:13 [DEBUG] Homographie trouvée avec 11 inliers sur 11 matches
+04:18:13 [INFO] Frame 665: homographie trouvée
+04:18:13 [INFO] Frame 665: point projeté à droite (1661,437)
+04:18:13 [DEBUG] Segmentation: seed=(1661, 437) tol=18.00 pixels=1315441
+04:18:13 [INFO] Frame 665: segmentation droite OK via homographie, aire=1291188
+04:18:13 [INFO] Frame 665: masque gauche mis à jour pour frame suivante
+04:18:13 [INFO] Frame 665: masque et boîte droite mis à jour
+04:18:13 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:18:13 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:18:13 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:18:13 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:18:13 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:18:13 [DEBUG] Frame 665: mise à jour vue gauche avec segmentation
+04:18:13 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:18:13 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:18:13 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:18:13 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:18:13 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:18:13 [DEBUG] Frame 665: mise à jour vue droite avec boîte et segmentation
+04:18:13 [DEBUG] Measure at idx=665
+04:18:13 [INFO] Row appended for idx=665 (L=[[1913, 162], [1878, 362], [1984, 381], [2019, 180]] R=None)
+04:18:13 [INFO] Frame 665: masque précédent mis à jour pour itération suivante
+04:18:14 [DEBUG] VideoStream.get_frame: idx=670 ok=True shape=(2160, 3840, 3)
+04:18:14 [DEBUG] VideoStream.get_frame: idx=670 ok=True shape=(2160, 3840, 3)
+04:18:14 [INFO] Processing frame 670 avec SIFT simple
+04:18:14 [DEBUG] VideoStream.get_frame: idx=665 ok=True shape=(2160, 3840, 3)
+04:18:16 [INFO] Frame 670: fallback ORB gauche après échec SIFT
+04:18:16 [INFO] Frame 670: fallback template matching gauche
+04:18:16 [INFO] Frame 670: localisation template gauche réussie → (1958,309)
+04:18:16 [DEBUG] Segmentation: seed=(1958, 309) tol=18.00 pixels=1987047
+04:18:16 [WARNING] Frame 670: segmentation trop grande (1958039 > 50000), réduction tolérance
+04:18:16 [DEBUG] Segmentation: seed=(1958, 309) tol=12.60 pixels=1245878
+04:18:16 [WARNING] Frame 670: segmentation encore trop grande, utiliser masque précédent
+04:18:16 [INFO] Frame 670: seed mis à jour vers (1943,274)
+04:18:16 [INFO] Frame 670: segmentation gauche OK, aire=7506 (prev=7506)
+04:18:16 [INFO] Frame 670: tentative homographie L->R
+04:18:18 [DEBUG] Features dans masque étendu: 14
+04:18:20 [DEBUG] Matches trouvés: 2
+04:18:20 [WARNING] Pas assez de bons matches (2 < 4)
+04:18:20 [WARNING] Frame 670: échec homographie L->R
+04:18:20 [INFO] Frame 670: fallback ORB après échec SIFT
+04:18:20 [DEBUG] Features dans masque étendu: 17
+04:18:20 [DEBUG] Matches trouvés: 8
+04:18:20 [DEBUG] Homographie trouvée avec 2 inliers sur 8 matches
+04:18:20 [INFO] Frame 670: homographie ORB trouvée
+04:18:20 [INFO] Frame 670: point ORB projeté à droite (1659,510)
+04:18:20 [DEBUG] Segmentation: seed=(1659, 510) tol=18.00 pixels=5009005
+04:18:20 [WARNING] Frame 670: segmentation ORB droite trop grande (4140373 > 3873564), réduction tolérance
+04:18:21 [DEBUG] Segmentation: seed=(1659, 510) tol=12.60 pixels=5815382
+04:18:21 [WARNING] Frame 670: segmentation ORB droite encore trop grande, annuler
+04:18:21 [WARNING] Frame 670: segmentation ORB finale trop petite
+04:18:21 [INFO] Frame 670: fallback - template matching depuis frame précédente
+04:18:21 [DEBUG] VideoStream.get_frame: idx=665 ok=True shape=(2160, 3840, 3)
+04:18:21 [INFO] Frame 670: template matching réussi
+04:18:22 [DEBUG] Segmentation: seed=(1479, 751) tol=18.00 pixels=1380870
+04:18:22 [INFO] Frame 670: fallback template + segmentation réussi, aire=1341058 (prev=1291188)
+04:18:22 [INFO] Frame 670: masque gauche mis à jour pour frame suivante
+04:18:22 [INFO] Frame 670: masque et boîte droite mis à jour
+04:18:22 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:18:22 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:18:22 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:18:22 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:18:22 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:18:22 [DEBUG] Frame 670: mise à jour vue gauche avec segmentation
+04:18:22 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:18:22 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:18:22 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:18:22 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:18:22 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:18:22 [DEBUG] Frame 670: mise à jour vue droite avec boîte et segmentation
+04:18:22 [DEBUG] Measure at idx=670
+04:18:22 [INFO] Row appended for idx=670 (L=[[1913, 162], [1878, 362], [1984, 381], [2019, 180]] R=None)
+04:18:22 [INFO] Frame 670: masque précédent mis à jour pour itération suivante
+04:18:22 [DEBUG] VideoStream.get_frame: idx=675 ok=True shape=(2160, 3840, 3)
+04:18:22 [DEBUG] VideoStream.get_frame: idx=675 ok=True shape=(2160, 3840, 3)
+04:18:22 [INFO] Processing frame 675 avec SIFT simple
+04:18:23 [DEBUG] VideoStream.get_frame: idx=670 ok=True shape=(2160, 3840, 3)
+04:18:24 [INFO] Frame 675: fallback ORB gauche après échec SIFT
+04:18:24 [INFO] Frame 675: fallback template matching gauche
+04:18:25 [INFO] Frame 675: localisation template gauche réussie → (1961,272)
+04:18:25 [DEBUG] Segmentation: seed=(1961, 272) tol=18.00 pixels=860849
+04:18:25 [WARNING] Frame 675: segmentation trop grande (822765 > 50000), réduction tolérance
+04:18:25 [DEBUG] Segmentation: seed=(1961, 272) tol=12.60 pixels=99379
+04:18:25 [WARNING] Frame 675: segmentation encore trop grande, utiliser masque précédent
+04:18:25 [INFO] Frame 675: seed mis à jour vers (1943,274)
+04:18:25 [INFO] Frame 675: segmentation gauche OK, aire=7506 (prev=7506)
+04:18:25 [INFO] Frame 675: tentative homographie L->R
+04:18:27 [DEBUG] Features dans masque étendu: 15
+04:18:29 [DEBUG] Matches trouvés: 6
+04:18:29 [DEBUG] Homographie trouvée avec 5 inliers sur 6 matches
+04:18:29 [INFO] Frame 675: homographie trouvée
+04:18:29 [INFO] Frame 675: point projeté à droite (1666,426)
+04:18:29 [DEBUG] Segmentation: seed=(1666, 426) tol=18.00 pixels=6659611
+04:18:29 [INFO] Frame 675: segmentation droite OK via homographie, aire=6313975
+04:18:29 [INFO] Frame 675: masque gauche mis à jour pour frame suivante
+04:18:29 [INFO] Frame 675: masque et boîte droite mis à jour
+04:18:29 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:18:29 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:18:29 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:18:29 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:18:29 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:18:29 [DEBUG] Frame 675: mise à jour vue gauche avec segmentation
+04:18:29 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:18:29 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:18:29 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:18:29 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:18:29 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:18:29 [DEBUG] Frame 675: mise à jour vue droite avec boîte et segmentation
+04:18:29 [DEBUG] Measure at idx=675
+04:18:29 [WARNING] Right box near edge at idx=675; discarding right measurement
+04:18:29 [INFO] Row appended for idx=675 (L=[[1913, 162], [1878, 362], [1984, 381], [2019, 180]] R=None)
+04:18:29 [INFO] Frame 675: masque précédent mis à jour pour itération suivante
+04:18:30 [DEBUG] VideoStream.get_frame: idx=680 ok=True shape=(2160, 3840, 3)
+04:18:30 [DEBUG] VideoStream.get_frame: idx=680 ok=True shape=(2160, 3840, 3)
+04:18:30 [INFO] Processing frame 680 avec SIFT simple
+04:18:30 [DEBUG] VideoStream.get_frame: idx=675 ok=True shape=(2160, 3840, 3)
+04:18:32 [INFO] Frame 680: fallback ORB gauche après échec SIFT
+04:18:32 [INFO] Frame 680: fallback template matching gauche
+04:18:32 [INFO] Frame 680: localisation template gauche réussie → (1970,303)
+04:18:33 [DEBUG] Segmentation: seed=(1970, 303) tol=18.00 pixels=2454552
+04:18:33 [WARNING] Frame 680: segmentation trop grande (2416684 > 50000), réduction tolérance
+04:18:33 [DEBUG] Segmentation: seed=(1970, 303) tol=12.60 pixels=1614153
+04:18:33 [WARNING] Frame 680: segmentation encore trop grande, utiliser masque précédent
+04:18:33 [INFO] Frame 680: seed mis à jour vers (1943,274)
+04:18:33 [INFO] Frame 680: segmentation gauche OK, aire=7506 (prev=7506)
+04:18:33 [INFO] Frame 680: tentative homographie L->R
+04:18:34 [DEBUG] Features dans masque étendu: 26
+04:18:36 [DEBUG] Matches trouvés: 11
+04:18:36 [DEBUG] Homographie trouvée avec 11 inliers sur 11 matches
+04:18:36 [INFO] Frame 680: homographie trouvée
+04:18:36 [INFO] Frame 680: point projeté à droite (1669,455)
+04:18:37 [DEBUG] Segmentation: seed=(1669, 455) tol=18.00 pixels=2710617
+04:18:37 [INFO] Frame 680: segmentation droite OK via homographie, aire=2678939
+04:18:37 [INFO] Frame 680: masque gauche mis à jour pour frame suivante
+04:18:37 [INFO] Frame 680: masque et boîte droite mis à jour
+04:18:37 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:18:37 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:18:37 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:18:37 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:18:37 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:18:37 [DEBUG] Frame 680: mise à jour vue gauche avec segmentation
+04:18:37 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:18:37 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:18:37 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:18:37 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:18:37 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:18:37 [DEBUG] Frame 680: mise à jour vue droite avec boîte et segmentation
+04:18:37 [DEBUG] Measure at idx=680
+04:18:37 [WARNING] Right box near edge at idx=680; discarding right measurement
+04:18:37 [INFO] Row appended for idx=680 (L=[[1913, 162], [1878, 362], [1984, 381], [2019, 180]] R=None)
+04:18:37 [INFO] Frame 680: masque précédent mis à jour pour itération suivante
+04:18:37 [DEBUG] VideoStream.get_frame: idx=685 ok=True shape=(2160, 3840, 3)
+04:18:38 [DEBUG] VideoStream.get_frame: idx=685 ok=True shape=(2160, 3840, 3)
+04:18:38 [INFO] Processing frame 685 avec SIFT simple
+04:18:38 [DEBUG] VideoStream.get_frame: idx=680 ok=True shape=(2160, 3840, 3)
+04:18:42 [INFO] Frame 685: fallback ORB gauche après échec SIFT
+04:18:42 [INFO] Frame 685: fallback template matching gauche
+04:18:42 [INFO] Frame 685: localisation template gauche réussie → (1958,293)
+04:18:42 [DEBUG] Segmentation: seed=(1958, 293) tol=18.00 pixels=2997840
+04:18:42 [WARNING] Frame 685: segmentation trop grande (2910878 > 50000), réduction tolérance
+04:18:43 [DEBUG] Segmentation: seed=(1958, 293) tol=12.60 pixels=1902759
+04:18:43 [WARNING] Frame 685: segmentation encore trop grande, utiliser masque précédent
+04:18:43 [INFO] Frame 685: seed mis à jour vers (1943,274)
+04:18:43 [INFO] Frame 685: segmentation gauche OK, aire=7506 (prev=7506)
+04:18:43 [INFO] Frame 685: tentative homographie L->R
+04:18:44 [DEBUG] Features dans masque étendu: 36
+04:18:46 [DEBUG] Matches trouvés: 18
+04:18:46 [DEBUG] Homographie trouvée avec 18 inliers sur 18 matches
+04:18:46 [INFO] Frame 685: homographie trouvée
+04:18:46 [INFO] Frame 685: point projeté à droite (1653,450)
+04:18:46 [DEBUG] Segmentation: seed=(1653, 450) tol=18.00 pixels=3092166
+04:18:46 [INFO] Frame 685: segmentation droite OK via homographie, aire=3051848
+04:18:46 [INFO] Frame 685: masque gauche mis à jour pour frame suivante
+04:18:46 [INFO] Frame 685: masque et boîte droite mis à jour
+04:18:46 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:18:46 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:18:46 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:18:46 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:18:46 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:18:46 [DEBUG] Frame 685: mise à jour vue gauche avec segmentation
+04:18:46 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:18:46 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:18:46 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:18:46 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:18:46 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:18:46 [DEBUG] Frame 685: mise à jour vue droite avec boîte et segmentation
+04:18:46 [DEBUG] Measure at idx=685
+04:18:46 [INFO] Row appended for idx=685 (L=[[1913, 162], [1878, 362], [1984, 381], [2019, 180]] R=None)
+04:18:46 [INFO] Frame 685: masque précédent mis à jour pour itération suivante
+04:18:47 [DEBUG] VideoStream.get_frame: idx=690 ok=True shape=(2160, 3840, 3)
+04:18:47 [DEBUG] VideoStream.get_frame: idx=690 ok=True shape=(2160, 3840, 3)
+04:18:47 [INFO] Processing frame 690 avec SIFT simple
+04:18:48 [DEBUG] VideoStream.get_frame: idx=685 ok=True shape=(2160, 3840, 3)
+04:18:49 [INFO] Frame 690: fallback ORB gauche après échec SIFT
+04:18:50 [INFO] Frame 690: fallback template matching gauche
+04:18:50 [INFO] Frame 690: localisation template gauche réussie → (1949,299)
+04:18:50 [DEBUG] Segmentation: seed=(1949, 299) tol=18.00 pixels=1051699
+04:18:50 [WARNING] Frame 690: segmentation trop grande (912489 > 50000), réduction tolérance
+04:18:50 [DEBUG] Segmentation: seed=(1949, 299) tol=12.60 pixels=405913
+04:18:50 [WARNING] Frame 690: segmentation encore trop grande, utiliser masque précédent
+04:18:50 [INFO] Frame 690: seed mis à jour vers (1943,274)
+04:18:50 [INFO] Frame 690: segmentation gauche OK, aire=7506 (prev=7506)
+04:18:50 [INFO] Frame 690: tentative homographie L->R
+04:18:52 [DEBUG] Features dans masque étendu: 44
+04:18:54 [DEBUG] Matches trouvés: 13
+04:18:54 [DEBUG] Homographie trouvée avec 13 inliers sur 13 matches
+04:18:54 [INFO] Frame 690: homographie trouvée
+04:18:54 [INFO] Frame 690: point projeté à droite (1639,458)
+04:18:55 [DEBUG] Segmentation: seed=(1639, 458) tol=18.00 pixels=2410060
+04:18:55 [INFO] Frame 690: segmentation droite OK via homographie, aire=2376069
+04:18:55 [INFO] Frame 690: masque gauche mis à jour pour frame suivante
+04:18:55 [INFO] Frame 690: masque et boîte droite mis à jour
+04:18:55 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:18:55 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:18:55 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:18:55 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:18:55 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:18:55 [DEBUG] Frame 690: mise à jour vue gauche avec segmentation
+04:18:55 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:18:55 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:18:55 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:18:55 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:18:55 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:18:55 [DEBUG] Frame 690: mise à jour vue droite avec boîte et segmentation
+04:18:55 [DEBUG] Measure at idx=690
+04:18:55 [INFO] Row appended for idx=690 (L=[[1913, 162], [1878, 362], [1984, 381], [2019, 180]] R=None)
+04:18:55 [INFO] Frame 690: masque précédent mis à jour pour itération suivante
+04:18:55 [DEBUG] VideoStream.get_frame: idx=695 ok=True shape=(2160, 3840, 3)
+04:18:56 [DEBUG] VideoStream.get_frame: idx=695 ok=True shape=(2160, 3840, 3)
+04:18:56 [INFO] Processing frame 695 avec SIFT simple
+04:18:56 [DEBUG] VideoStream.get_frame: idx=690 ok=True shape=(2160, 3840, 3)
+04:19:01 [INFO] Frame 695: fallback ORB gauche après échec SIFT
+04:19:01 [INFO] Frame 695: fallback template matching gauche
+04:19:01 [INFO] Frame 695: localisation template gauche réussie → (1947,300)
+04:19:01 [DEBUG] Segmentation: seed=(1947, 300) tol=18.00 pixels=1075360
+04:19:01 [WARNING] Frame 695: segmentation trop grande (895206 > 50000), réduction tolérance
+04:19:02 [DEBUG] Segmentation: seed=(1947, 300) tol=12.60 pixels=413002
+04:19:02 [WARNING] Frame 695: segmentation encore trop grande, utiliser masque précédent
+04:19:02 [INFO] Frame 695: seed mis à jour vers (1943,274)
+04:19:02 [INFO] Frame 695: segmentation gauche OK, aire=7506 (prev=7506)
+04:19:02 [INFO] Frame 695: tentative homographie L->R
+04:19:03 [DEBUG] Features dans masque étendu: 30
+04:19:06 [DEBUG] Matches trouvés: 16
+04:19:06 [DEBUG] Homographie trouvée avec 16 inliers sur 16 matches
+04:19:06 [INFO] Frame 695: homographie trouvée
+04:19:06 [INFO] Frame 695: point projeté à droite (1635,459)
+04:19:06 [DEBUG] Segmentation: seed=(1635, 459) tol=18.00 pixels=639042
+04:19:06 [INFO] Frame 695: segmentation droite OK via homographie, aire=560981
+04:19:06 [INFO] Frame 695: masque gauche mis à jour pour frame suivante
+04:19:06 [INFO] Frame 695: masque et boîte droite mis à jour
+04:19:06 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:19:06 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:19:06 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:19:06 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:19:06 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:19:06 [DEBUG] Frame 695: mise à jour vue gauche avec segmentation
+04:19:06 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:19:06 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:19:06 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:19:06 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:19:06 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:19:06 [DEBUG] Frame 695: mise à jour vue droite avec boîte et segmentation
+04:19:06 [DEBUG] Measure at idx=695
+04:19:06 [INFO] Row appended for idx=695 (L=[[1913, 162], [1878, 362], [1984, 381], [2019, 180]] R=None)
+04:19:06 [INFO] Frame 695: masque précédent mis à jour pour itération suivante
+04:19:07 [DEBUG] VideoStream.get_frame: idx=700 ok=True shape=(2160, 3840, 3)
+04:19:07 [DEBUG] VideoStream.get_frame: idx=700 ok=True shape=(2160, 3840, 3)
+04:19:07 [INFO] Processing frame 700 avec SIFT simple
+04:19:08 [DEBUG] VideoStream.get_frame: idx=695 ok=True shape=(2160, 3840, 3)
+04:19:12 [INFO] Frame 700: fallback ORB gauche après échec SIFT
+04:19:12 [INFO] Frame 700: fallback template matching gauche
+04:19:12 [INFO] Frame 700: localisation template gauche réussie → (1945,296)
+04:19:12 [DEBUG] Segmentation: seed=(1945, 296) tol=18.00 pixels=2263618
+04:19:12 [WARNING] Frame 700: segmentation trop grande (2147626 > 50000), réduction tolérance
+04:19:12 [DEBUG] Segmentation: seed=(1945, 296) tol=12.60 pixels=1281049
+04:19:12 [WARNING] Frame 700: segmentation encore trop grande, utiliser masque précédent
+04:19:12 [INFO] Frame 700: seed mis à jour vers (1943,274)
+04:19:12 [INFO] Frame 700: segmentation gauche OK, aire=7506 (prev=7506)
+04:19:12 [INFO] Frame 700: tentative homographie L->R
+04:19:14 [DEBUG] Features dans masque étendu: 32
+04:19:16 [DEBUG] Matches trouvés: 8
+04:19:16 [DEBUG] Homographie trouvée avec 8 inliers sur 8 matches
+04:19:16 [INFO] Frame 700: homographie trouvée
+04:19:16 [INFO] Frame 700: point projeté à droite (1628,450)
+04:19:16 [DEBUG] Segmentation: seed=(1628, 450) tol=18.00 pixels=2639693
+04:19:16 [INFO] Frame 700: segmentation droite OK via homographie, aire=2476550
+04:19:16 [INFO] Frame 700: masque gauche mis à jour pour frame suivante
+04:19:16 [INFO] Frame 700: masque et boîte droite mis à jour
+04:19:16 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:19:16 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:19:16 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:19:16 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:19:16 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:19:16 [DEBUG] Frame 700: mise à jour vue gauche avec segmentation
+04:19:16 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:19:16 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:19:16 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:19:16 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:19:16 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:19:16 [DEBUG] Frame 700: mise à jour vue droite avec boîte et segmentation
+04:19:16 [DEBUG] Measure at idx=700
+04:19:16 [INFO] Row appended for idx=700 (L=[[1913, 162], [1878, 362], [1984, 381], [2019, 180]] R=None)
+04:19:16 [INFO] Frame 700: masque précédent mis à jour pour itération suivante
+04:19:17 [DEBUG] VideoStream.get_frame: idx=705 ok=True shape=(2160, 3840, 3)
+04:19:18 [DEBUG] VideoStream.get_frame: idx=705 ok=True shape=(2160, 3840, 3)
+04:19:18 [INFO] Processing frame 705 avec SIFT simple
+04:19:18 [DEBUG] VideoStream.get_frame: idx=700 ok=True shape=(2160, 3840, 3)
+04:19:22 [INFO] Frame 705: localisation SIFT gauche réussie → (1915,287)
+04:19:22 [DEBUG] Segmentation: seed=(1915, 287) tol=18.00 pixels=2769962
+04:19:22 [WARNING] Frame 705: segmentation trop grande (2717318 > 50000), réduction tolérance
+04:19:22 [DEBUG] Segmentation: seed=(1915, 287) tol=12.60 pixels=1748821
+04:19:22 [WARNING] Frame 705: segmentation encore trop grande, utiliser masque précédent
+04:19:22 [INFO] Frame 705: seed mis à jour vers (1943,274)
+04:19:22 [INFO] Frame 705: segmentation gauche OK, aire=7506 (prev=7506)
+04:19:22 [INFO] Frame 705: tentative homographie L->R
+04:19:24 [DEBUG] Features dans masque étendu: 30
+04:19:26 [DEBUG] Matches trouvés: 8
+04:19:26 [DEBUG] Homographie trouvée avec 8 inliers sur 8 matches
+04:19:26 [INFO] Frame 705: homographie trouvée
+04:19:26 [INFO] Frame 705: point projeté à droite (1592,440)
+04:19:26 [DEBUG] Segmentation: seed=(1592, 440) tol=18.00 pixels=3218644
+04:19:26 [INFO] Frame 705: segmentation droite OK via homographie, aire=3170492
+04:19:26 [INFO] Frame 705: masque gauche mis à jour pour frame suivante
+04:19:26 [INFO] Frame 705: masque et boîte droite mis à jour
+04:19:26 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:19:26 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:19:26 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:19:26 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:19:26 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:19:26 [DEBUG] Frame 705: mise à jour vue gauche avec segmentation
+04:19:26 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:19:26 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:19:26 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:19:26 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:19:26 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:19:26 [DEBUG] Frame 705: mise à jour vue droite avec boîte et segmentation
+04:19:26 [DEBUG] Measure at idx=705
+04:19:26 [INFO] Row appended for idx=705 (L=[[1913, 162], [1878, 362], [1984, 381], [2019, 180]] R=None)
+04:19:26 [INFO] Frame 705: masque précédent mis à jour pour itération suivante
+04:19:27 [DEBUG] VideoStream.get_frame: idx=710 ok=True shape=(2160, 3840, 3)
+04:19:28 [DEBUG] VideoStream.get_frame: idx=710 ok=True shape=(2160, 3840, 3)
+04:19:28 [INFO] Processing frame 710 avec SIFT simple
+04:19:28 [DEBUG] VideoStream.get_frame: idx=705 ok=True shape=(2160, 3840, 3)
+04:19:32 [INFO] Frame 710: localisation SIFT gauche réussie → (1898,288)
+04:19:32 [DEBUG] Segmentation: seed=(1898, 288) tol=18.00 pixels=1740530
+04:19:32 [WARNING] Frame 710: segmentation trop grande (1689351 > 50000), réduction tolérance
+04:19:33 [DEBUG] Segmentation: seed=(1898, 288) tol=12.60 pixels=6676252
+04:19:33 [WARNING] Frame 710: segmentation encore trop grande, utiliser masque précédent
+04:19:33 [INFO] Frame 710: seed mis à jour vers (1943,274)
+04:19:33 [INFO] Frame 710: segmentation gauche OK, aire=7506 (prev=7506)
+04:19:33 [INFO] Frame 710: tentative homographie L->R
+04:19:34 [DEBUG] Features dans masque étendu: 19
+04:19:36 [DEBUG] Matches trouvés: 7
+04:19:36 [DEBUG] Homographie trouvée avec 7 inliers sur 7 matches
+04:19:36 [INFO] Frame 710: homographie trouvée
+04:19:36 [INFO] Frame 710: point projeté à droite (1570,435)
+04:19:36 [DEBUG] Segmentation: seed=(1570, 435) tol=18.00 pixels=1708774
+04:19:36 [INFO] Frame 710: segmentation droite OK via homographie, aire=1684766
+04:19:37 [INFO] Frame 710: masque gauche mis à jour pour frame suivante
+04:19:37 [INFO] Frame 710: masque et boîte droite mis à jour
+04:19:37 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:19:37 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:19:37 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:19:37 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:19:37 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:19:37 [DEBUG] Frame 710: mise à jour vue gauche avec segmentation
+04:19:37 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:19:37 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:19:37 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:19:37 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:19:37 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:19:37 [DEBUG] Frame 710: mise à jour vue droite avec boîte et segmentation
+04:19:37 [DEBUG] Measure at idx=710
+04:19:37 [INFO] Row appended for idx=710 (L=[[1913, 162], [1878, 362], [1984, 381], [2019, 180]] R=None)
+04:19:37 [INFO] Frame 710: masque précédent mis à jour pour itération suivante
+04:19:37 [DEBUG] Saved history for frame 710 (history_end=710)
+04:19:37 [DEBUG] VideoStream.get_frame: idx=715 ok=True shape=(2160, 3840, 3)
+04:19:38 [DEBUG] VideoStream.get_frame: idx=715 ok=True shape=(2160, 3840, 3)
+04:19:38 [INFO] Processing frame 715 avec SIFT simple
+04:19:38 [DEBUG] VideoStream.get_frame: idx=710 ok=True shape=(2160, 3840, 3)
+04:19:42 [INFO] Frame 715: localisation SIFT gauche réussie → (1903,294)
+04:19:43 [DEBUG] Segmentation: seed=(1903, 294) tol=18.00 pixels=3506932
+04:19:43 [WARNING] Frame 715: segmentation trop grande (3428918 > 50000), réduction tolérance
+04:19:43 [DEBUG] Segmentation: seed=(1903, 294) tol=12.60 pixels=5400601
+04:19:43 [WARNING] Frame 715: segmentation encore trop grande, utiliser masque précédent
+04:19:43 [INFO] Frame 715: seed mis à jour vers (1943,274)
+04:19:43 [INFO] Frame 715: segmentation gauche OK, aire=7506 (prev=7506)
+04:19:43 [INFO] Frame 715: tentative homographie L->R
+04:19:44 [DEBUG] Features dans masque étendu: 28
+04:19:46 [DEBUG] Matches trouvés: 7
+04:19:46 [DEBUG] Homographie trouvée avec 7 inliers sur 7 matches
+04:19:46 [INFO] Frame 715: homographie trouvée
+04:19:46 [INFO] Frame 715: point projeté à droite (1569,435)
+04:19:47 [DEBUG] Segmentation: seed=(1569, 435) tol=18.00 pixels=3341337
+04:19:47 [INFO] Frame 715: segmentation droite OK via homographie, aire=3301450
+04:19:47 [INFO] Frame 715: masque gauche mis à jour pour frame suivante
+04:19:47 [INFO] Frame 715: masque et boîte droite mis à jour
+04:19:47 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:19:47 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:19:47 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:19:47 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:19:47 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:19:47 [DEBUG] Frame 715: mise à jour vue gauche avec segmentation
+04:19:47 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:19:47 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:19:47 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:19:47 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:19:47 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:19:47 [DEBUG] Frame 715: mise à jour vue droite avec boîte et segmentation
+04:19:47 [DEBUG] Measure at idx=715
+04:19:47 [INFO] Row appended for idx=715 (L=[[1913, 162], [1878, 362], [1984, 381], [2019, 180]] R=None)
+04:19:47 [INFO] Frame 715: masque précédent mis à jour pour itération suivante
+04:19:47 [DEBUG] VideoStream.get_frame: idx=720 ok=True shape=(2160, 3840, 3)
+04:19:48 [DEBUG] VideoStream.get_frame: idx=720 ok=True shape=(2160, 3840, 3)
+04:19:48 [INFO] Processing frame 720 avec SIFT simple
+04:19:49 [DEBUG] VideoStream.get_frame: idx=715 ok=True shape=(2160, 3840, 3)
+04:19:51 [INFO] Frame 720: fallback ORB gauche après échec SIFT
+04:19:51 [INFO] Frame 720: fallback template matching gauche
+04:19:51 [INFO] Frame 720: localisation template gauche réussie → (1960,284)
+04:19:51 [DEBUG] Segmentation: seed=(1960, 284) tol=18.00 pixels=2686392
+04:19:51 [WARNING] Frame 720: segmentation trop grande (2661733 > 50000), réduction tolérance
+04:19:52 [DEBUG] Segmentation: seed=(1960, 284) tol=12.60 pixels=1824540
+04:19:52 [WARNING] Frame 720: segmentation encore trop grande, utiliser masque précédent
+04:19:52 [INFO] Frame 720: seed mis à jour vers (1943,274)
+04:19:52 [INFO] Frame 720: segmentation gauche OK, aire=7506 (prev=7506)
+04:19:52 [INFO] Frame 720: tentative homographie L->R
+04:19:53 [DEBUG] Features dans masque étendu: 15
+04:19:55 [DEBUG] Matches trouvés: 6
+04:19:55 [DEBUG] Homographie trouvée avec 6 inliers sur 6 matches
+04:19:55 [INFO] Frame 720: homographie trouvée
+04:19:55 [INFO] Frame 720: point projeté à droite (1614,424)
+04:19:56 [DEBUG] Segmentation: seed=(1614, 424) tol=18.00 pixels=2960940
+04:19:56 [INFO] Frame 720: segmentation droite OK via homographie, aire=2941581
+04:19:56 [INFO] Frame 720: masque gauche mis à jour pour frame suivante
+04:19:56 [INFO] Frame 720: masque et boîte droite mis à jour
+04:19:56 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:19:56 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:19:56 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:19:56 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:19:56 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:19:56 [DEBUG] Frame 720: mise à jour vue gauche avec segmentation
+04:19:56 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:19:56 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:19:56 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:19:56 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:19:56 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:19:56 [DEBUG] Frame 720: mise à jour vue droite avec boîte et segmentation
+04:19:56 [DEBUG] Measure at idx=720
+04:19:56 [WARNING] Right box near edge at idx=720; discarding right measurement
+04:19:56 [INFO] Row appended for idx=720 (L=[[1913, 162], [1878, 362], [1984, 381], [2019, 180]] R=None)
+04:19:56 [INFO] Frame 720: masque précédent mis à jour pour itération suivante
+04:19:57 [DEBUG] VideoStream.get_frame: idx=725 ok=True shape=(2160, 3840, 3)
+04:19:57 [DEBUG] VideoStream.get_frame: idx=725 ok=True shape=(2160, 3840, 3)
+04:19:57 [INFO] Processing frame 725 avec SIFT simple
+04:19:58 [DEBUG] VideoStream.get_frame: idx=720 ok=True shape=(2160, 3840, 3)
+04:20:00 [INFO] Frame 725: fallback ORB gauche après échec SIFT
+04:20:00 [INFO] Frame 725: fallback template matching gauche
+04:20:00 [INFO] Frame 725: localisation template gauche réussie → (1973,288)
+04:20:00 [DEBUG] Segmentation: seed=(1973, 288) tol=18.00 pixels=3731440
+04:20:00 [WARNING] Frame 725: segmentation trop grande (3651905 > 50000), réduction tolérance
+04:20:01 [DEBUG] Segmentation: seed=(1973, 288) tol=12.60 pixels=2560767
+04:20:01 [WARNING] Frame 725: segmentation encore trop grande, utiliser masque précédent
+04:20:01 [INFO] Frame 725: seed mis à jour vers (1943,274)
+04:20:01 [INFO] Frame 725: segmentation gauche OK, aire=7506 (prev=7506)
+04:20:01 [INFO] Frame 725: tentative homographie L->R
+04:20:02 [DEBUG] Features dans masque étendu: 27
+04:20:05 [DEBUG] Matches trouvés: 6
+04:20:05 [DEBUG] Homographie trouvée avec 6 inliers sur 6 matches
+04:20:05 [INFO] Frame 725: homographie trouvée
+04:20:05 [INFO] Frame 725: point projeté à droite (1620,418)
+04:20:05 [DEBUG] Segmentation: seed=(1620, 418) tol=18.00 pixels=3901297
+04:20:05 [INFO] Frame 725: segmentation droite OK via homographie, aire=3884490
+04:20:05 [INFO] Frame 725: masque gauche mis à jour pour frame suivante
+04:20:05 [INFO] Frame 725: masque et boîte droite mis à jour
+04:20:05 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:20:05 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:20:05 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:20:05 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:20:05 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:20:05 [DEBUG] Frame 725: mise à jour vue gauche avec segmentation
+04:20:05 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:20:05 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:20:05 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:20:05 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:20:05 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:20:05 [DEBUG] Frame 725: mise à jour vue droite avec boîte et segmentation
+04:20:05 [DEBUG] Measure at idx=725
+04:20:05 [WARNING] Right box near edge at idx=725; discarding right measurement
+04:20:05 [INFO] Row appended for idx=725 (L=[[1913, 162], [1878, 362], [1984, 381], [2019, 180]] R=None)
+04:20:05 [INFO] Frame 725: masque précédent mis à jour pour itération suivante
+04:20:06 [DEBUG] VideoStream.get_frame: idx=730 ok=True shape=(2160, 3840, 3)
+04:20:07 [DEBUG] VideoStream.get_frame: idx=730 ok=True shape=(2160, 3840, 3)
+04:20:07 [INFO] Processing frame 730 avec SIFT simple
+04:20:08 [DEBUG] VideoStream.get_frame: idx=725 ok=True shape=(2160, 3840, 3)
+04:20:09 [INFO] Frame 730: fallback ORB gauche après échec SIFT
+04:20:09 [INFO] Frame 730: fallback template matching gauche
+04:20:10 [INFO] Frame 730: localisation template gauche réussie → (1955,245)
+04:20:10 [DEBUG] Segmentation: seed=(1955, 245) tol=18.00 pixels=89153
+04:20:10 [INFO] Frame 730: seed mis à jour vers (1931,106)
+04:20:10 [INFO] Frame 730: segmentation gauche OK, aire=27675 (prev=7506)
+04:20:10 [INFO] Frame 730: tentative homographie L->R
+04:20:11 [DEBUG] Features dans masque étendu: 32
+04:20:14 [DEBUG] Matches trouvés: 7
+04:20:14 [DEBUG] Homographie trouvée avec 7 inliers sur 7 matches
+04:20:14 [INFO] Frame 730: homographie trouvée
+04:20:14 [INFO] Frame 730: point projeté à droite (1590,381)
+04:20:14 [DEBUG] Segmentation: seed=(1590, 381) tol=18.00 pixels=3899648
+04:20:14 [INFO] Frame 730: segmentation droite OK via homographie, aire=1666323
+04:20:14 [INFO] Frame 730: masque gauche mis à jour pour frame suivante
+04:20:14 [INFO] Frame 730: masque et boîte droite mis à jour
+04:20:14 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:20:14 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:20:14 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:20:14 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:20:14 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:20:14 [DEBUG] Frame 730: mise à jour vue gauche avec segmentation
+04:20:14 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:20:14 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:20:14 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:20:14 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:20:14 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:20:14 [DEBUG] Frame 730: mise à jour vue droite avec boîte et segmentation
+04:20:14 [DEBUG] Measure at idx=730
+04:20:14 [WARNING] Right box near edge at idx=730; discarding right measurement
+04:20:14 [WARNING] No valid left box at idx=730; skip logging
+04:20:14 [INFO] Frame 730: masque précédent mis à jour pour itération suivante
+04:20:15 [DEBUG] VideoStream.get_frame: idx=735 ok=True shape=(2160, 3840, 3)
+04:20:16 [DEBUG] VideoStream.get_frame: idx=735 ok=True shape=(2160, 3840, 3)
+04:20:16 [INFO] Processing frame 735 avec SIFT simple
+04:20:17 [DEBUG] VideoStream.get_frame: idx=730 ok=True shape=(2160, 3840, 3)
+04:20:18 [INFO] Frame 735: fallback ORB gauche après échec SIFT
+04:20:18 [INFO] Frame 735: fallback template matching gauche
+04:20:19 [INFO] Frame 735: localisation template gauche réussie → (1953,201)
+04:20:19 [DEBUG] Segmentation: seed=(1953, 201) tol=18.00 pixels=2656521
+04:20:19 [WARNING] Frame 735: segmentation trop grande (2588720 > 83025), réduction tolérance
+04:20:19 [DEBUG] Segmentation: seed=(1953, 201) tol=12.60 pixels=1145181
+04:20:19 [WARNING] Frame 735: segmentation encore trop grande, utiliser masque précédent
+04:20:19 [INFO] Frame 735: seed mis à jour vers (1931,106)
+04:20:19 [INFO] Frame 735: segmentation gauche OK, aire=27675 (prev=27675)
+04:20:19 [INFO] Frame 735: tentative homographie L->R
+04:20:20 [DEBUG] Features dans masque étendu: 34
+04:20:23 [DEBUG] Matches trouvés: 9
+04:20:23 [DEBUG] Homographie trouvée avec 9 inliers sur 9 matches
+04:20:23 [INFO] Frame 735: homographie trouvée
+04:20:23 [INFO] Frame 735: point projeté à droite (1577,345)
+04:20:23 [DEBUG] Segmentation: seed=(1577, 345) tol=18.00 pixels=3397964
+04:20:23 [INFO] Frame 735: segmentation droite OK via homographie, aire=3293321
+04:20:23 [INFO] Frame 735: masque gauche mis à jour pour frame suivante
+04:20:23 [INFO] Frame 735: masque et boîte droite mis à jour
+04:20:23 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:20:23 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:20:23 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:20:23 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:20:23 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:20:23 [DEBUG] Frame 735: mise à jour vue gauche avec segmentation
+04:20:23 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:20:23 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:20:23 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:20:23 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:20:23 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:20:23 [DEBUG] Frame 735: mise à jour vue droite avec boîte et segmentation
+04:20:23 [DEBUG] Measure at idx=735
+04:20:23 [WARNING] No valid left box at idx=735; skip logging
+04:20:23 [INFO] Frame 735: masque précédent mis à jour pour itération suivante
+04:20:24 [DEBUG] VideoStream.get_frame: idx=740 ok=True shape=(2160, 3840, 3)
+04:20:25 [DEBUG] VideoStream.get_frame: idx=740 ok=True shape=(2160, 3840, 3)
+04:20:25 [INFO] Processing frame 740 avec SIFT simple
+04:20:26 [DEBUG] VideoStream.get_frame: idx=735 ok=True shape=(2160, 3840, 3)
+04:20:29 [INFO] Frame 740: fallback ORB gauche après échec SIFT
+04:20:30 [INFO] Frame 740: localisation ORB gauche réussie → (1913,132)
+04:20:30 [DEBUG] Segmentation: seed=(1913, 132) tol=18.00 pixels=3304318
+04:20:30 [WARNING] Frame 740: segmentation trop grande (3266296 > 83025), réduction tolérance
+04:20:30 [DEBUG] Segmentation: seed=(1913, 132) tol=12.60 pixels=2219567
+04:20:30 [WARNING] Frame 740: segmentation encore trop grande, utiliser masque précédent
+04:20:30 [INFO] Frame 740: seed mis à jour vers (1931,106)
+04:20:30 [INFO] Frame 740: segmentation gauche OK, aire=27675 (prev=27675)
+04:20:30 [INFO] Frame 740: tentative homographie L->R
+04:20:31 [DEBUG] Features dans masque étendu: 31
+04:20:34 [DEBUG] Matches trouvés: 6
+04:20:34 [DEBUG] Homographie trouvée avec 6 inliers sur 6 matches
+04:20:34 [INFO] Frame 740: homographie trouvée
+04:20:34 [INFO] Frame 740: point projeté à droite (1528,293)
+04:20:34 [DEBUG] Segmentation: seed=(1528, 293) tol=18.00 pixels=3725395
+04:20:34 [INFO] Frame 740: segmentation droite OK via homographie, aire=3624703
+04:20:34 [INFO] Frame 740: masque gauche mis à jour pour frame suivante
+04:20:34 [INFO] Frame 740: masque et boîte droite mis à jour
+04:20:34 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:20:34 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:20:34 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:20:34 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:20:34 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:20:34 [DEBUG] Frame 740: mise à jour vue gauche avec segmentation
+04:20:34 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:20:34 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:20:34 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:20:34 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:20:34 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:20:34 [DEBUG] Frame 740: mise à jour vue droite avec boîte et segmentation
+04:20:34 [DEBUG] Measure at idx=740
+04:20:34 [WARNING] No valid left box at idx=740; skip logging
+04:20:34 [INFO] Frame 740: masque précédent mis à jour pour itération suivante
+04:20:35 [DEBUG] VideoStream.get_frame: idx=745 ok=True shape=(2160, 3840, 3)
+04:20:36 [DEBUG] VideoStream.get_frame: idx=745 ok=True shape=(2160, 3840, 3)
+04:20:36 [INFO] Processing frame 745 avec SIFT simple
+04:20:37 [DEBUG] VideoStream.get_frame: idx=740 ok=True shape=(2160, 3840, 3)
+04:20:41 [INFO] Frame 745: fallback ORB gauche après échec SIFT
+04:20:41 [INFO] Frame 745: localisation ORB gauche réussie → (1935,99)
+04:20:41 [DEBUG] Segmentation: seed=(1935, 99) tol=18.00 pixels=4021648
+04:20:41 [WARNING] Frame 745: segmentation trop grande (3839444 > 83025), réduction tolérance
+04:20:41 [DEBUG] Segmentation: seed=(1935, 99) tol=12.60 pixels=2307094
+04:20:41 [WARNING] Frame 745: segmentation encore trop grande, utiliser masque précédent
+04:20:41 [INFO] Frame 745: seed mis à jour vers (1931,106)
+04:20:41 [INFO] Frame 745: segmentation gauche OK, aire=27675 (prev=27675)
+04:20:41 [INFO] Frame 745: tentative homographie L->R
+04:20:43 [DEBUG] Features dans masque étendu: 32
+04:20:45 [DEBUG] Matches trouvés: 8
+04:20:45 [DEBUG] Homographie trouvée avec 7 inliers sur 8 matches
+04:20:45 [INFO] Frame 745: homographie trouvée
+04:20:45 [INFO] Frame 745: point projeté à droite (1542,258)
+04:20:45 [DEBUG] Segmentation: seed=(1542, 258) tol=18.00 pixels=3856321
+04:20:45 [INFO] Frame 745: segmentation droite OK via homographie, aire=3753450
+04:20:45 [INFO] Frame 745: masque gauche mis à jour pour frame suivante
+04:20:45 [INFO] Frame 745: masque et boîte droite mis à jour
+04:20:45 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:20:45 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:20:45 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:20:45 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:20:45 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:20:45 [DEBUG] Frame 745: mise à jour vue gauche avec segmentation
+04:20:45 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:20:45 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:20:45 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:20:45 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:20:45 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:20:45 [DEBUG] Frame 745: mise à jour vue droite avec boîte et segmentation
+04:20:45 [DEBUG] Measure at idx=745
+04:20:45 [WARNING] Right box near edge at idx=745; discarding right measurement
+04:20:45 [WARNING] No valid left box at idx=745; skip logging
+04:20:45 [INFO] Frame 745: masque précédent mis à jour pour itération suivante
+04:20:46 [DEBUG] VideoStream.get_frame: idx=750 ok=True shape=(2160, 3840, 3)
+04:20:47 [DEBUG] VideoStream.get_frame: idx=750 ok=True shape=(2160, 3840, 3)
+04:20:47 [INFO] Processing frame 750 avec SIFT simple
+04:20:48 [DEBUG] VideoStream.get_frame: idx=745 ok=True shape=(2160, 3840, 3)
+04:20:52 [INFO] Frame 750: localisation SIFT gauche réussie → (1923,88)
+04:20:52 [DEBUG] Segmentation: seed=(1923, 88) tol=18.00 pixels=4144133
+04:20:52 [WARNING] Frame 750: segmentation trop grande (4019007 > 83025), réduction tolérance
+04:20:52 [DEBUG] Segmentation: seed=(1923, 88) tol=12.60 pixels=2539246
+04:20:52 [WARNING] Frame 750: segmentation encore trop grande, utiliser masque précédent
+04:20:52 [INFO] Frame 750: seed mis à jour vers (1931,106)
+04:20:52 [INFO] Frame 750: segmentation gauche OK, aire=27675 (prev=27675)
+04:20:52 [INFO] Frame 750: tentative homographie L->R
+04:20:54 [DEBUG] Features dans masque étendu: 31
+04:20:56 [DEBUG] Matches trouvés: 9
+04:20:56 [DEBUG] Homographie trouvée avec 9 inliers sur 9 matches
+04:20:56 [INFO] Frame 750: homographie trouvée
+04:20:56 [INFO] Frame 750: point projeté à droite (1519,240)
+04:20:56 [DEBUG] Segmentation: seed=(1519, 240) tol=18.00 pixels=4023265
+04:20:56 [INFO] Frame 750: segmentation droite OK via homographie, aire=3854389
+04:20:56 [INFO] Frame 750: masque gauche mis à jour pour frame suivante
+04:20:56 [INFO] Frame 750: masque et boîte droite mis à jour
+04:20:56 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:20:56 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:20:56 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:20:56 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:20:56 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:20:56 [DEBUG] Frame 750: mise à jour vue gauche avec segmentation
+04:20:56 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:20:56 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:20:56 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:20:56 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:20:56 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:20:56 [DEBUG] Frame 750: mise à jour vue droite avec boîte et segmentation
+04:20:56 [DEBUG] Measure at idx=750
+04:20:56 [WARNING] Right box near edge at idx=750; discarding right measurement
+04:20:56 [WARNING] No valid left box at idx=750; skip logging
+04:20:56 [INFO] Frame 750: masque précédent mis à jour pour itération suivante
+04:20:57 [DEBUG] VideoStream.get_frame: idx=755 ok=True shape=(2160, 3840, 3)
+04:20:58 [DEBUG] VideoStream.get_frame: idx=755 ok=True shape=(2160, 3840, 3)
+04:20:58 [INFO] Processing frame 755 avec SIFT simple
+04:21:00 [DEBUG] VideoStream.get_frame: idx=750 ok=True shape=(2160, 3840, 3)
+04:21:01 [INFO] Frame 755: fallback ORB gauche après échec SIFT
+04:21:01 [INFO] Frame 755: fallback template matching gauche
+04:21:02 [INFO] Frame 755: localisation template gauche réussie → (2332,584)
+04:21:02 [DEBUG] Segmentation: seed=(2332, 584) tol=18.00 pixels=4902952
+04:21:02 [WARNING] Frame 755: segmentation trop grande (4694674 > 83025), réduction tolérance
+04:21:02 [DEBUG] Segmentation: seed=(2332, 584) tol=12.60 pixels=2956081
+04:21:02 [WARNING] Frame 755: segmentation encore trop grande, utiliser masque précédent
+04:21:02 [INFO] Frame 755: seed mis à jour vers (1931,106)
+04:21:02 [INFO] Frame 755: segmentation gauche OK, aire=27675 (prev=27675)
+04:21:02 [INFO] Frame 755: tentative homographie L->R
+04:21:04 [DEBUG] Features dans masque étendu: 31
+04:21:06 [DEBUG] Matches trouvés: 6
+04:21:06 [DEBUG] Homographie trouvée avec 6 inliers sur 6 matches
+04:21:06 [INFO] Frame 755: homographie trouvée
+04:21:06 [INFO] Frame 755: point projeté à droite (1960,737)
+04:21:06 [DEBUG] Segmentation: seed=(1960, 737) tol=18.00 pixels=6081195
+04:21:06 [INFO] Frame 755: segmentation droite OK via homographie, aire=5776527
+04:21:06 [INFO] Frame 755: masque gauche mis à jour pour frame suivante
+04:21:06 [INFO] Frame 755: masque et boîte droite mis à jour
+04:21:06 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:21:06 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:21:06 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:21:06 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:21:06 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:21:06 [DEBUG] Frame 755: mise à jour vue gauche avec segmentation
+04:21:06 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:21:06 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:21:06 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:21:06 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:21:06 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:21:06 [DEBUG] Frame 755: mise à jour vue droite avec boîte et segmentation
+04:21:06 [DEBUG] Measure at idx=755
+04:21:06 [WARNING] Right box near edge at idx=755; discarding right measurement
+04:21:06 [WARNING] No valid left box at idx=755; skip logging
+04:21:06 [INFO] Frame 755: masque précédent mis à jour pour itération suivante
+04:21:07 [DEBUG] VideoStream.get_frame: idx=760 ok=True shape=(2160, 3840, 3)
+04:21:08 [DEBUG] VideoStream.get_frame: idx=760 ok=True shape=(2160, 3840, 3)
+04:21:08 [INFO] Processing frame 760 avec SIFT simple
+04:21:09 [DEBUG] VideoStream.get_frame: idx=755 ok=True shape=(2160, 3840, 3)
+04:21:13 [INFO] Frame 760: localisation SIFT gauche réussie → (1934,137)
+04:21:14 [DEBUG] Segmentation: seed=(1934, 137) tol=18.00 pixels=3603080
+04:21:14 [WARNING] Frame 760: segmentation trop grande (3400531 > 83025), réduction tolérance
+04:21:14 [DEBUG] Segmentation: seed=(1934, 137) tol=12.60 pixels=2062958
+04:21:14 [WARNING] Frame 760: segmentation encore trop grande, utiliser masque précédent
+04:21:14 [INFO] Frame 760: seed mis à jour vers (1931,106)
+04:21:14 [INFO] Frame 760: segmentation gauche OK, aire=27675 (prev=27675)
+04:21:14 [INFO] Frame 760: tentative homographie L->R
+04:21:15 [DEBUG] Features dans masque étendu: 32
+04:21:17 [DEBUG] Matches trouvés: 5
+04:21:17 [DEBUG] Homographie trouvée avec 5 inliers sur 5 matches
+04:21:17 [INFO] Frame 760: homographie trouvée
+04:21:17 [INFO] Frame 760: point projeté à droite (1516,292)
+04:21:18 [DEBUG] Segmentation: seed=(1516, 292) tol=18.00 pixels=3509422
+04:21:18 [INFO] Frame 760: segmentation droite OK via homographie, aire=3396605
+04:21:18 [INFO] Frame 760: masque gauche mis à jour pour frame suivante
+04:21:18 [INFO] Frame 760: masque et boîte droite mis à jour
+04:21:18 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:21:18 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:21:18 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:21:18 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:21:18 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:21:18 [DEBUG] Frame 760: mise à jour vue gauche avec segmentation
+04:21:18 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:21:18 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:21:18 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:21:18 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:21:18 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:21:18 [DEBUG] Frame 760: mise à jour vue droite avec boîte et segmentation
+04:21:18 [DEBUG] Measure at idx=760
+04:21:18 [WARNING] No valid left box at idx=760; skip logging
+04:21:18 [INFO] Frame 760: masque précédent mis à jour pour itération suivante
+04:21:18 [DEBUG] Saved history for frame 760 (history_end=760)
+04:21:19 [DEBUG] VideoStream.get_frame: idx=765 ok=True shape=(2160, 3840, 3)
+04:21:20 [DEBUG] VideoStream.get_frame: idx=765 ok=True shape=(2160, 3840, 3)
+04:21:20 [INFO] Processing frame 765 avec SIFT simple
+04:21:21 [DEBUG] VideoStream.get_frame: idx=760 ok=True shape=(2160, 3840, 3)
+04:21:25 [INFO] Frame 765: fallback ORB gauche après échec SIFT
+04:21:26 [INFO] Frame 765: fallback template matching gauche
+04:21:26 [WARNING] Frame 765: fallback centroïde gauche → (1931,106)
+04:21:26 [DEBUG] Segmentation: seed=(1931, 106) tol=18.00 pixels=2894543
+04:21:26 [WARNING] Frame 765: segmentation trop grande (2773948 > 83025), réduction tolérance
+04:21:26 [DEBUG] Segmentation: seed=(1931, 106) tol=12.60 pixels=1547681
+04:21:26 [WARNING] Frame 765: segmentation encore trop grande, utiliser masque précédent
+04:21:26 [INFO] Frame 765: seed mis à jour vers (1931,106)
+04:21:26 [INFO] Frame 765: segmentation gauche OK, aire=27675 (prev=27675)
+04:21:26 [INFO] Frame 765: tentative homographie L->R
+04:21:28 [DEBUG] Features dans masque étendu: 23
+04:21:30 [DEBUG] Matches trouvés: 7
+04:21:30 [DEBUG] Homographie trouvée avec 6 inliers sur 7 matches
+04:21:30 [INFO] Frame 765: homographie trouvée
+04:21:30 [INFO] Frame 765: point projeté à droite (1506,272)
+04:21:31 [DEBUG] Segmentation: seed=(1506, 272) tol=18.00 pixels=3508116
+04:21:31 [INFO] Frame 765: segmentation droite OK via homographie, aire=3434386
+04:21:31 [INFO] Frame 765: masque gauche mis à jour pour frame suivante
+04:21:31 [INFO] Frame 765: masque et boîte droite mis à jour
+04:21:31 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:21:31 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:21:31 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:21:31 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:21:31 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:21:31 [DEBUG] Frame 765: mise à jour vue gauche avec segmentation
+04:21:31 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:21:31 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:21:31 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:21:31 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:21:31 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:21:31 [DEBUG] Frame 765: mise à jour vue droite avec boîte et segmentation
+04:21:31 [DEBUG] Measure at idx=765
+04:21:31 [WARNING] Right box near edge at idx=765; discarding right measurement
+04:21:31 [WARNING] No valid left box at idx=765; skip logging
+04:21:31 [INFO] Frame 765: masque précédent mis à jour pour itération suivante
+04:21:32 [DEBUG] VideoStream.get_frame: idx=770 ok=True shape=(2160, 3840, 3)
+04:21:34 [DEBUG] VideoStream.get_frame: idx=770 ok=True shape=(2160, 3840, 3)
+04:21:34 [INFO] Processing frame 770 avec SIFT simple
+04:21:35 [DEBUG] VideoStream.get_frame: idx=765 ok=True shape=(2160, 3840, 3)
+04:21:40 [INFO] Frame 770: fallback ORB gauche après échec SIFT
+04:21:40 [INFO] Frame 770: localisation ORB gauche réussie → (1942,102)
+04:21:40 [DEBUG] Segmentation: seed=(1942, 102) tol=18.00 pixels=3441195
+04:21:40 [WARNING] Frame 770: segmentation trop grande (3339842 > 83025), réduction tolérance
+04:21:40 [DEBUG] Segmentation: seed=(1942, 102) tol=12.60 pixels=1952505
+04:21:40 [WARNING] Frame 770: segmentation encore trop grande, utiliser masque précédent
+04:21:40 [INFO] Frame 770: seed mis à jour vers (1931,106)
+04:21:40 [INFO] Frame 770: segmentation gauche OK, aire=27675 (prev=27675)
+04:21:40 [INFO] Frame 770: tentative homographie L->R
+04:21:42 [DEBUG] Features dans masque étendu: 28
+04:21:44 [DEBUG] Matches trouvés: 5
+04:21:44 [DEBUG] Homographie trouvée avec 5 inliers sur 5 matches
+04:21:44 [INFO] Frame 770: homographie trouvée
+04:21:44 [INFO] Frame 770: point projeté à droite (1509,267)
+04:21:45 [DEBUG] Segmentation: seed=(1509, 267) tol=18.00 pixels=3765873
+04:21:45 [INFO] Frame 770: segmentation droite OK via homographie, aire=3617907
+04:21:45 [INFO] Frame 770: masque gauche mis à jour pour frame suivante
+04:21:45 [INFO] Frame 770: masque et boîte droite mis à jour
+04:21:45 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:21:45 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:21:45 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:21:45 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:21:45 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:21:45 [DEBUG] Frame 770: mise à jour vue gauche avec segmentation
+04:21:45 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:21:45 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:21:45 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:21:45 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:21:45 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:21:45 [DEBUG] Frame 770: mise à jour vue droite avec boîte et segmentation
+04:21:45 [INFO] UI: clicked Stop (cancel processing)
+04:21:45 [DEBUG] Measure at idx=770
+04:21:45 [WARNING] No valid left box at idx=770; skip logging
+04:21:45 [INFO] Frame 770: masque précédent mis à jour pour itération suivante
+04:21:47 [DEBUG] VideoStream.get_frame: idx=900 ok=True shape=(2160, 3840, 3)
+04:21:50 [DEBUG] VideoStream.get_frame: idx=900 ok=True shape=(2160, 3840, 3)
+04:21:50 [DEBUG] refresh_frames: idx=900 L=(2160, 3840, 3) R=(2160, 3840, 3)
+04:21:50 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:21:50 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:21:50 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:21:50 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:21:50 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:21:50 [DEBUG] FrameView[right_view].set_frame: input shape=(2160, 3840, 3)
+04:21:50 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:21:50 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:21:50 [DEBUG] FrameView[right_view].set_frame: pixmap isNull=False size=3840x2160
+04:21:50 [DEBUG] FrameView[right_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:21:50 [DEBUG] Refreshed frames at idx=900
+04:21:56 [INFO] UI: left_view click at (2829,1018) button=LeftButton
+04:21:56 [INFO] Seed set at left=(2829,1018)
+04:21:56 [INFO] Segment current at idx=900 with tol=18.00
+04:21:56 [DEBUG] Segmentation: seed=(2829, 1018) tol=18.00 pixels=74310
+04:21:56 [DEBUG] FrameView[left_view].set_frame: input shape=(2160, 3840, 3)
+04:21:56 [DEBUG] to_qimage_bgr: src shape=3840x2160
+04:21:56 [DEBUG] to_qimage_bgr: qimg w=3840 h=2160 bytesPerLine=11520 isNull=False
+04:21:56 [DEBUG] FrameView[left_view].set_frame: pixmap isNull=False size=3840x2160
+04:21:56 [DEBUG] FrameView[left_view].sceneRect: x=0.0 y=0.0 w=3840.0 h=2160.0
+04:21:58 [INFO] Set keyframe at idx=900 with 3 features
+04:22:13 [INFO] UI: clicked 'Exporter CSV'

@@ -6,3 +6,6 @@
 
 # Stereo taille
 stereo_taille/
+
+# Log files
+*.log

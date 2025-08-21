@@ -1,11 +1,19 @@
 # StereoMeasure
 
-**StereoMeasure** est un outil d'analyse et de visualisation de mesures stéréoscopiques 3D. Il permet de calculer des dimensions d'objets (longueur, largeur, profondeur) à partir de données de vision stéréoscopique et de générer des graphiques détaillés.
+**StereoMeasure** est un outil complet d'analyse et de visualisation de mesures stéréoscopiques 3D. Il comprend une interface graphique pour l'annotation de vidéos stéréoscopiques et un système de calcul de dimensions d'objets à partir de données de vision stéréoscopique.
 
 ## Fonctionnalités
 
+### Interface graphique (video_matcher.gui.py)
+- **Visualisation de vidéos stéréoscopiques** : affichage simultané des vues gauche et droite
+- **Annotation manuelle** : sélection de rectangles sur les objets d'intérêt
+- **Détection de caractéristiques** : algorithmes ORB/SIFT pour le matching de points
+- **Segmentation et tracking** : suivi d'objets à travers les frames
+- **Export de données** : sauvegarde des coordonnées des rectangles annotés au format CSV
+
+### Analyse de mesures (convert_measures.py)
 - **Calcul de mesures 3D** : longueur, largeur et profondeur d'objets
-- **Traitement de données stéréoscopiques** : utilise les disparités pour calculer les distances réelles
+- **Traitement de données stéréoscopiques** : utilise les disparités pour calculer les distances réelles  
 - **Détection d'outliers** : supprime automatiquement les valeurs aberrantes pour des moyennes plus précises
 - **Visualisation graphique** : génère des graphiques multi-échelles avec lignes de référence
 - **Export de données** : sauvegarde les résultats en CSV et PNG
@@ -51,8 +59,38 @@ baseline = 26.5         # Distance entre les caméras en cm
 
 ## Utilisation
 
+### Étape 1 : Annotation des vidéos (video_matcher.gui.py)
+
+Lancez l'interface graphique pour annoter vos vidéos stéréoscopiques :
+
 ```bash
-python csv2.py
+python video_matcher.gui.py
+```
+
+L'interface permet de :
+1. Charger des vidéos stéréoscopiques (vues gauche et droite)
+2. Naviguer frame par frame dans les vidéos
+3. Dessiner des rectangles autour des objets à mesurer
+4. Exporter les coordonnées des rectangles au format CSV
+
+### Étape 2 : Calcul des mesures (convert_measures.py)
+
+Une fois les annotations terminées, utilisez le script de calcul des mesures :
+
+```bash
+python convert_measures.py
+```
+
+Avant d'exécuter le script, modifiez les paramètres de calibration dans le fichier :
+
+```python
+# Configuration des fichiers
+input_filename = "mesures.csv"  # Fichier CSV généré par l'interface graphique
+output_suffix = "_cut"          # Suffixe pour les fichiers de sortie
+
+# Configuration des paramètres de calibration  
+focale_length = 2400    # Focale en pixels
+baseline = 26.5         # Distance entre les caméras en cm
 ```
 
 ### Fichiers générés
@@ -119,13 +157,14 @@ distance = √((X2-X1)² + (Y2-Y1)² + (Z2-Z1)²)
 
 ```
 StereoMeasure/
-├── csv2.py              # Script principal
-├── requirements.txt     # Dépendances Python
-├── install.sh          # Script d'installation
-├── README.md           # Documentation
-├── mesures2.csv        # Fichier d'exemple (à remplacer)
-└── mesures2_cut.csv    # Fichier de sortie (généré)
-└── mesures2_cut.png    # Graphique de sortie (généré)
+├── video_matcher.gui.py  # Interface graphique d'annotation
+├── convert_measures.py   # Script de calcul des mesures
+├── requirements.txt      # Dépendances Python  
+├── install.sh           # Script d'installation
+├── README.md            # Documentation
+├── mesures.csv          # Fichier d'exemple d'annotations
+├── mesures_cut.csv      # Fichier de sortie (généré)
+└── mesures_cut.png      # Graphique de sortie (généré)
 ```
 
 ## Exemples de sortie console
