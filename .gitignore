@@ -1,0 +1,8 @@
+# Claude Code
+.claude/
+
+# Virtual environment
+.venv/
+
+# Stereo taille
+stereo_taille/
