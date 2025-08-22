@@ -4,7 +4,7 @@ import os
 import matplotlib.pyplot as plt
 
 # Configuration des fichiers
-input_filename = "mesures.csv"
+input_filename = "mesures_atimaono.csv"
 output_suffix = "_cut"
 
 # Génération automatique du nom de sortie
@@ -13,8 +13,8 @@ output_filename = f"{base_name}{output_suffix}{ext}"
 
 # Configuration des paramètres de calibration
 focale_length = 2400  # Focale en pixels
-baseline = 26.5  # cm pour Meridien_test_support_08_2025
-# baseline = 25  # cm pour Atimaono_07_2025
+#baseline = 26.5  # cm pour Meridien_test_support_08_2025
+baseline = 25  # cm pour Atimaono_07_2025
 
 
 def compute_taille(x1, y1, disp1, x2, y2, disp2, baseline, focale_length):

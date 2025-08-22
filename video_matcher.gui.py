@@ -22,6 +22,13 @@ if not os.environ.get("QT_QPA_PLATFORM"):
 from PyQt5 import QtCore, QtGui, QtWidgets
 from typing import Any, Optional, cast
 
+# ---------- Default Video Paths ----------
+#DEFAULT_LEFT_VIDEO = r"C:\\Users\\mykae\\OneDrive - Centre de recherche du CHU de Québec\\cloud\\Projects\\damien\\stereo_taille\\atimaono_stereo_1\\left\\GX010257.MP4"
+#DEFAULT_RIGHT_VIDEO = r"C:\\Users\\mykae\\OneDrive - Centre de recherche du CHU de Québec\\cloud\\Projects\\damien\\stereo_taille\\atimaono_stereo_1\\right\\GX010107.MP4"
+
+DEFAULT_LEFT_VIDEO = r"C:\\Users\\mykae\\OneDrive - Centre de recherche du CHU de Québec\\cloud\\Projects\\damien\\stereo_taille\\meridien_test_support_8\\left\\GX010301.MP4"
+DEFAULT_RIGHT_VIDEO = r"C:\\Users\\mykae\\OneDrive - Centre de recherche du CHU de Québec\\cloud\\Projects\\damien\\stereo_taille\\meridien_test_support_8\\right\\GX010125.MP4"
+
 # ---------- Logging ----------
 logger = logging.getLogger("video_matcher")
 
@@ -882,10 +889,8 @@ class MainWindow(QtWidgets.QMainWindow):
 
         # Open default videos if present (convert Windows path to WSL)
         try:
-            left_win = r"C:\\Users\\mykae\\OneDrive - Centre de recherche du CHU de Québec\\cloud\\Projects\\damien\\stereo_taille\\atimaono_stereo_1\\left\\GX010257.MP4"
-            right_win = r"C:\\Users\\mykae\\OneDrive - Centre de recherche du CHU de Québec\\cloud\\Projects\\damien\\stereo_taille\\atimaono_stereo_1\\right\\GX010107.MP4"
-            left_path = windows_to_wsl_path(left_win)
-            right_path = windows_to_wsl_path(right_win)
+            left_path = windows_to_wsl_path(DEFAULT_LEFT_VIDEO)
+            right_path = windows_to_wsl_path(DEFAULT_RIGHT_VIDEO)
             if os.path.exists(left_path):
                 self.left.open(left_path)
             if os.path.exists(right_path):
